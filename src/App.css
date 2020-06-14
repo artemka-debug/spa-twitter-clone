@@ -1,0 +1,37 @@
+.App-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 2px;
+}
+
+.Error-span {
+    color: #bb0000;
+}
+
+.none {
+    display: none;
+}
+
+.CheckMark {
+    color: green;
+}
+
+.ExclamationCircleFill {
+    color: #bb0000;
+}
+
+.searchBox-logged {
+    width: 100%;
+    float: right;
+    margin-top: 0;
+}
+
+.link {
+    text-decoration: none
+}
+
+.loading {
+    text-align: center;
+
+}

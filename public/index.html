@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="SameSite" content="None">
+  <meta name="google-signin-scope" content="profile email">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script src="https://apis.google.com/js/api.js" async defer></script>
+  <meta name="google-signin-client_id"
+        content="988530795253-t56qlidiqla5qnj2o6cvfbfeo3448ts8.apps.googleusercontent.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#000000"/>
+  <meta
+          name="description"
+          content="Web site created using create-react-app"
+  />
+  <script src="https://apis.google.com/js/platform.js?onload=onLoad" async defer></script>
+  <title>Twitter</title>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('serviceWorker.js', {
+        scope: '/'
+      }).then(r => console.log("WORKER", r));
+    }
+  </script>
+</body>
+</html>
+
+
